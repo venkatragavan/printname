@@ -6,7 +6,7 @@ class Person:
   def printname(self):
     print(self.firstname, self.lastname)
 
-#Use the Person Clss to create an object, and then execute the printname method:
+#Use the Person CLASS to create an instance, and then execute the printname method:
 
 p = Person("Johnny", "Doe")
 p.printname()
